@@ -1,0 +1,23 @@
+{
+  "name": "ladderackroyd-website",
+  "version": "1.0.0",
+  "description": "Root of website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ladderackroyd/ladderackroyd-website.git"
+  },
+  "author": "ladderackroyd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ladderackroyd/ladderackroyd-website/issues"
+  },
+  "homepage": "https://github.com/ladderackroyd/ladderackroyd-website#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
