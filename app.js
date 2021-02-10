@@ -8,7 +8,7 @@ app.use(express.static(path.join(__dirname, 'styles')));
 app.use(express.static(path.join(__dirname, 'dist')));
 
 app.get("/", (req, res) => {
-    res.sendFile('UnderDevelopment.html', {root: __dirname});
+    res.sendFile('dist/UnderDevelopment.html', {root: __dirname});
 });
 
 app.listen(port, () => {
